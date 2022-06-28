@@ -3,98 +3,101 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
+  list-style: none;
+  text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+
 .nav__container {
   width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
-  height: 80px;
-  padding: 0 15px;
+  height: 90px;
+  padding: 0px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid black;
+  
 }
-.nav__container__list {
+#logo{
+  width: 80px;
+}
+.nav__container__list{
   height: 100%;
-  list-style: none;
   display: flex;
-  align-items: flex-end;
-  padding-bottom: 10px;
-}
-.nav__container__list a {
-  text-decoration: none;
-  padding: 0px 10px 0px 10px;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-size: 20px;
-  color: #191919;
-}
-.nav__container__logo {
-  color: #ffff;
-  background-color: #191919;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
+.nav__container__list__link{
+  font-size: 1.3rem;
+  padding: 0 20px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
 .header__container {
-    width: 1024px;
-    height: 35vh;
-    margin: 0 auto;;
-    /* background-color: #f0f0f0; */
+    width: 90%;
+    max-width: 1024px;
+    height: 350px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+   flex-flow: row wrap;
+    justify-content:center;
     margin-top: 10px;
 }
+.header__container__text{
+  width: 50%;
+  height: 100%;
+}
 .header__container__img{
-    width: 450px;
-    height: 100%;
+  width: 400px;
+  height: 100%;
 }
-.imagen{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
+#title{
+  font-size: 35px;
+  text-transform: capitalize;
+  margin: 20px;
 }
-.header__text{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+#paragraph{
+  font-weight:500;
+  margin: 20px;
 }
-h1{
-    font-size: 35px;
+.button__container{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
-.botones{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+#btnSkill{
+  background-color: black;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: #FFF;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  margin: 0 10px;
+ 
 }
-.botonA {
-    text-decoration: none;
-    font-size: 20px;
-    background-color: black;
-    padding: 5px 35px;
-    color: #FFF;
-    border-radius: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    
+#btnLeerMas{
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: #000;
+  border: 3px solid #000;
+  text-transform: uppercase;
+  letter-spacing: .1rem
 }
-.botonB{
-    text-decoration: none;
-    font-size: 20px;
-    padding: 2px 35px;
-    color: black;
-    border-radius: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 3px solid black;
+.header__container__img img{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.description__contain{
+  margin: 20px 20px; 
+  width: 1024px;
+  font-size: 1.3rem;
+  text-align: center;
 }
