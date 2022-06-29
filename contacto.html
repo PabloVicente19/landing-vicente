@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./contacto.css">
+    <title>Contacto | Pablo Martin Vicente</title>
+</head>
+<body>
+    <nav class="nav__container">
+        <div class="nav__container__logo">
+          <a href="index.html">
+            <img id="logo" src="./img/logo.png" alt="" />
+          </a>
+        </div>
+        <input type="checkbox" name="" id="check" />
+        <label for="check" class="checked">
+          <img class="icono-burger" src="./img/nav-burger.png" alt="" />
+        </label>
+        <ul class="nav__container__list">
+          <li><a class="nav__container__list__link" href="index.html">Inicio</a></li>
+          <li><a class="nav__container__list__link" href="#">Skill</a></li>
+          <li><a class="nav__container__list__link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    <main>
+        <h1>Contáctame</h1>
+        <form action="" class="container__form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required placeholder="ingrese su nombre">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required placeholder="ingrese su apellido">
+            <label for="correo">Correo: </label>
+            <input type="email" name="correo" id="correo" required placeholder="ingrese su correo electronico" >
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

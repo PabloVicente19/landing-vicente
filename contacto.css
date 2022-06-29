@@ -1,0 +1,44 @@
+main{
+    margin: 15px 0;
+    text-align: center;
+
+}
+h1{
+    font-weight: 500;
+}
+.container__form{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    text-align: left;
+}
+label{
+    display: block;
+    font-size: 20px;
+}
+input{
+    width: 80%;
+    margin: 10px 0; 
+    padding: 3px 0;
+    text-indent: 10px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 50%;
+    border: 0;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+button:hover{
+    background-color: black;
+    color: #FFF;
+    transform: scale(.9);
+}
+textarea{
+    width: 80%;
+    text-indent: 10px;
+}
