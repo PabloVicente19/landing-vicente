@@ -11,11 +11,12 @@
 .nav-contenedor {
   width: 100%;
   max-width: 1440px;
-  height: 10vh;
+  height: 80px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  background-color: aliceblue;
 }
 .nav-imagen {
   height: 100%;
@@ -53,13 +54,14 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items:center ;
   flex-flow: row wrap;
   margin-top: 20px;
 }
 /* Texto Del Hero */
 .contenedor-texto {
   width: 450px;
-  height: 100%;
+  height: 300px;
   margin: 20px;
   padding: 20px;
   font-size: 1.2rem;
@@ -67,12 +69,12 @@
 .contenedor-texto h1,
 p,
 a {
-  margin: 30px;
+  margin: 20px;
 }
 /* Imagen Del Hero */
 .contenedor-imagen {
   width: 500px;
-  height: 100%;
+  height: 400px;
   margin: 0 auto;
 }
 .contenedor-imagen img {
@@ -81,14 +83,25 @@ a {
   border-radius: 20px;
 }
 /* cards */
-.contenedor-cards{
+.section-cards{
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  height: 600px;
+  height: auto;
   background-color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+}
+.section-cards h2{
+  padding: 20px 0px;
+  font-size: 2.2rem;
+}
+.contenedor-cards{
+  width: 100%;
   display: flex;
-
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 .cards{
   width: 400px;
