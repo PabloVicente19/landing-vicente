@@ -48,7 +48,7 @@
 .hero_contenedor {
   width: 100%;
   max-width: 1440px;
-  height: 500px;
+  height: auto;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -95,19 +95,40 @@
 
 }
 .hero_descripcion{
-  width: 100%;
-  max-width: 1024px;
+  width: 80%;
+  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
   font-size: 20px;
 }
 /* Cards */
-.contenedor_cards{
+.contenedor{
   width: 100%;
-  max-width: 1024px;
+  max-width: 1440px;
   height: auto;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cards{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(104, 103, 103); 
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards img{
+  width: 60px ;
+  height: 60px;
 }
 /* Media Query */
 @media (max-width: 700px) {
