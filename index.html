@@ -1,83 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./estilos.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Pablo Martin Vicente</title>
-  </head>
-  <body>
-    <nav class="nav__container">
-      <div class="nav__container__logo">
-        <a href="index.html">
-          <img id="logo" src="./img/logo.png" alt="" />
-        </a>
-      </div>
-      <input type="checkbox" name="" id="check" />
-      <label for="check" class="checked">
-        <img class="icono-burger" src="./img/nav-burger.png" alt="" />
-      </label>
-      <ul class="nav__container__list">
-        <li><a class="nav__container__list__link" href="index.html">Inicio</a></li>
-        <li><a class="nav__container__list__link" href="#">Skill</a></li>
-        <li><a class="nav__container__list__link" href="contacto.html">Contacto</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./estilos.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>Pablo Martin Vicente</title>
+</head>
+<body>
+  <header class="contenedor-header">
+    <nav class="nav-contenedor">
+      <img class="nav-imagen" src="./img/logo.png" alt="Logo del sitio">
+      <ul class="nav-menu">
+        <li><a class="menu-link" href="#">Inicio</a></li>
+        <li><a class="menu-link" href="#">Habilidades</a></li>
+        <li><a class="menu-link" href="#">Contacto</a></li>
       </ul>
     </nav>
-
-    <main>
-      <section class="hero_contenedor">
-        <div class="contenedor_texto">
-          <h1>Hola, Soy Pablo Vicente</h1>
-          <p >estudiante de programacion Full-Stack en Nucba.</p>
-          <div class="botones">
-            <a class="btn-1" href="#">Ir a Skill</a>
-            <a class="btn-2" href="#">Leer Más</a>
-          </div>
-        </div>
-        
-        <div class="contenedor_imagen">
-          <img src="./img/img-para-header.jpg" alt="Codeando" />
-        </div>  
-
-        <section class="hero_descripcion" >
-          <p>
-            Soy Diseñador Cad/Cam para una empresa metalurgica. Durante la
-            cuarentena mire cursos de html y css por youtube, desde ese momento me
-            puse la meta en adquirir conocimientos sobre: HTML, CSS, JS y React
-            durante un año, para tenes la base suficiente y poder ingresar a un
-            trabajo de IT.
-          </p>
-        </section>
-      </section>
-  </main>
-  <section class="contenedor">
-    <div class="cards">
-      <img src="./img/student.png" alt="">
-      <h3>Beneficio 1</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sunt!</p>
-    </div>
-    <div class="cards">
-      <img src="./img/man.png" alt="">
-      <h3>Beneficio 2</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sunt!</p>
-    </div>
-    <div class="cards">
-      <img src="./img/heart.png" alt="">
-      <h3>Beneficio 3</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sunt!</p>
-    </div>
-
-
-  </section>
-      
-   <footer>
-    <section>
-      <h2>Contacto</h2>
+  </header>
+  <main>
+    <section class="contenedor-hero">
+      <div class="contenedor-texto">
+        <h1>Hola, Soy Pablo Vicente</h1>
+        <p>estudiante de programacion Full-Stack en Nucba.</p>
+        <a class="btn-1" href="#">Ir a Skill</a>
+        <a class="btn-2" href="#">Leer Más</a>
+      </div>
+      </div>
+      <div class="contenedor-imagen">
+        <img src="./img/img-para-header.jpg" alt="Codeando" />
+      </div>
     </section>
-    
-   </footer>
-  </body>
+    <section class="contenedor-cards">
+      <div class="cards">
+        <img src="./img/student.png" alt="">
+        <h3>Beneficio 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sunt!</p>
+      </div>
+      <div class="cards">
+        <img src="./img/man.png" alt="">
+        <h3>Beneficio 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sunt!</p>
+      </div>
+      <div class="cards">
+        <img src="./img/heart.png" alt="">
+        <h3>Beneficio 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sunt!</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+  </footer> 
+</body>
 </html>
