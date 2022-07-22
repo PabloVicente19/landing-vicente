@@ -10,53 +10,95 @@
   <title>Pablo Martin Vicente</title>
 </head>
 <body>
-  <header class="contenedor-header">
-    <nav class="nav-contenedor">
-      <img class="nav-imagen" src="./img/logo.png" alt="Logo del sitio">
-      <ul class="nav-menu">
-        <li><a class="menu-link" href="#">Inicio</a></li>
-        <li><a class="menu-link" href="#">Habilidades</a></li>
-        <li><a class="menu-link" href="#">Contacto</a></li>
+  <header class="header">
+    <nav class="nav__contenedor">
+      <img class="nav__imagen" src="./img/logo.png" alt="Logo del sitio">
+      <ul class="nav__menu">
+        <li><a class="menu__link" href="#">Inicio</a></li>
+        <li><a class="menu__link" href="#">Habilidades</a></li>
+        <li><a class="menu__link" href="#">Contacto</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section class="contenedor-hero">
-      <div class="contenedor-texto">
-        <h1>Hola, Soy Pablo Vicente</h1>
-        <p>estudiante de programacion Full-Stack en Nucba.</p>
-        <a class="btn-1" href="#">Ir a Skill</a>
-        <a class="btn-2" href="#">Leer Más</a>
+    <!-- Hero -->
+      <section class="hero__contenedor">
+        <div class="hero__text">
+            <h1>Hola, Soy Pablo Vicente</h1>
+            <p>estudiante de programacion Full-Stack en Nucba.</p>
+            <a class="hero__btn" href="#">Ir a Skill</a>
+            <a class="hero__btn --invertido" href="#">Leer Más</a>
+        </div>
+        <div class="hero__img">
+            <img src="./img/img-para-header.jpg" alt="Imagen de internet">
+        </div>
+
+      </section>
+      <!-- Tarjetas -->
+      <section class="section">
+        <div>
+          <h2>Mis Aptitudes</h2>
+        </div>
+        <div class="tarjetas__contenedor">
+        <div class="tarjeta">
+          <img src="./img/student.png" alt="">
+          <h3>Compromiso</h3>
+          <p>Compromiso con la empresa, capacitacion constante.</p>
+        </div>
+        <div class="tarjeta">
+          <img src="./img/man.png" alt="">
+          <h3>Adaptabilidad</h3>
+          <p>Me adapto al equipo de trabajo. dando lo mejor para mi y para el equipo</p>
+        </div>
+        <div class="tarjeta">
+          <img src="./img/heart.png" alt="">
+          <h3>Colaboracion</h3>
+          <p>Me gusta mucho ayudar a otras personas y tratrar de resolver sus dudas</p>
+        </div>
       </div>
-      </div>
-      <div class="contenedor-imagen">
-        <img src="./img/img-para-header.jpg" alt="Codeando" />
-      </div>
-    </section>
-    <section>
-    <section class="section-cards">
-      <h2>Mis Aptitudes </h2>
-      <section  class="contenedor-cards">
-      <div class="cards">
-        <img src="./img/student.png" alt="">
-        <h3>Compromiso</h3>
-        <p>Compromiso con la empresa, capacitacion constantem.</p>
-      </div>
-      <div class="cards">
-        <img src="./img/man.png" alt="">
-        <h3>Adaptabilidad</h3>
-        <p>Me adapto al equipo de trabajo. dando lo mejor para mi y el equipo</p>
-      </div>
-      <div class="cards">
-        <img src="./img/heart.png" alt="">
-        <h3>Colaboracion</h3>
-        <p>Me gusta mucho ayudar a otras personas y tratrar de resolver sus dudas</p>
-      </div>
-    </section>
-  </section>
-  </section>
+      </section>
   </main>
-  <footer>
+  <!-- Footer -->
+  <footer class="footer">
+   
+    <section class="contacto__contenedor">
+      <div class="contenido">
+      <h2>Contacto</h2>
+      <div class="contacto__lista">
+        <div class="contacto">
+          <h3>Jupiter.Australia</h3>
+          <ul>
+            <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
+            <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
+            <li><i class="fa-solid fa-phone"></i>0303 456 </li>
+          </ul>
+        </div>
+          <div class="contacto">
+          <h3>estevan Echeverria</h3>
+          <ul>
+            <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
+            <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
+            <li><i class="fa-solid fa-phone"></i>0303 456 </li>
+          </ul> 
+          
+        </div>
+    </div>
+  </div>
+    <div class="contacto__img">
+      <img src="./img/fondo-contacto.jpg" alt="">  
+    </div>
+    
+    <div class="contacto__redes">
+      <i class="fa-brands fa-facebook-square"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+
+
+    </section>
+    
+  
+      
   </footer> 
-</body>
-</html>
+  </body>
+  </html>
