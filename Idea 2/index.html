@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,99 +7,48 @@
     <link rel="stylesheet" href="./estilos.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Tunde-Bank</title>
+    <title>TunderBank</title>
 </head>
 <body>
-    <header class="contenedor">
-        <nav class="nav__contenedor">
-            <img src="../img/logo.png" alt="">
-                <!-- Menu Hambugesa -->
-            <label for="check">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <input class="nav__input" type="checkbox" id="check">
+    <header>
+        <nav class="contenedor">
+            <img id="logo" src="../img/logo.png" alt="Logo">
 
+            <label for="check">
+                <i class="fa-solid fa-bars icon-nav"></i>
+            </label>
+            <input class="menu-check" type="checkbox" id="check">
+            
             <ul class="nav__lista">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Prestamos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#"> Inicio</a></li>
+                <li><a href="#"> Reservas</a></li>
+                <li><a href="#"> Contacto</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
+   <main>
         <!-- HERO -->
-            <section class="hero__contenedor">
-                <div class="hero__contenedor__text">
-                        <h1>Somos un banco, cont lorem</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dicta!</p>
-                        <a href="#">Conoce mas</a>
-                        <a href="#" id="btn">click</a>
-                </div>
-                <div class="hero__contenedor__img">
-                    <img src="../img/img-para-header.jpg" alt="">
-                </div>
-            </section>
-
-            <!-- Tarjetas -->
-            
-            <section class="contenedor">
-                  <div class="tarjeta">
-                    <img src="../img/iconos/pestramo.png" alt="">
-                    <h3>PRÉSTAMO PERSONAL</h3>
-                    <p>Préstamos hasta $2.000.000.</p>
-                    <p>Simulá el tuyo y si te interesa, pedilo 100% online.</p>
-                  </div>
-                  <div class="tarjeta">
-                    <img src="../img/iconos/chanchito-plazo-fijo.png" alt="">
-                    <h3>PLAZO FIJO</h3>
-                    <p>Ahorrá con Nosotros</p>
-                    <p>conocé los intereses que te dará, desde el inicio.</p>
-                  </div>
-                  <div class="tarjeta">
-                    <img src="../img/iconos/adelanto-de-sueldo.png" alt="">
-                    <h3>Colaboracion</h3>
-                    <p>Me gusta mucho ayudar a otras personas y tratrar de resolver sus dudas</p>
-                  </div>
-            </section>
-          
-    </main>
-    
-    <footer>
-        <!-- CONTACTO -->
-        <section class="contacto__contenedor">
-            <div class="contenedor__listas">
-                <h2>contacto</h2>
-                <div class="contacto__lista">
-                    <div class="contacto">
-                      <h3>Jupiter.Australia</h3>
-                      <ul>
-                        <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
-                        <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
-                        <li><i class="fa-solid fa-phone"></i>0303 456 </li>
-                      </ul>
-                    </div>
-                      <div class="contacto">
-                      <h3>estevan Echeverria</h3>
-                      <ul>
-                        <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
-                        <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
-                        <li><i class="fa-solid fa-phone"></i>0303 456 </li>
-                      </ul> 
-                      
-                    </div>
+        <section class="contenedor-hero">
+            <div class="hero">
+                <h1> Somos TrundBank</h1>
+                <h2>Prestamos al instante</h2>
+                <p>Somos una empresa facilitadora de creditos, solo con dni</p>
+                <a  href="#">solicitar</a>
+                <a id="btn" href="#">Contacto</a>
             </div>
-            </div>
-            <div class="contenedor__img">
-              <img src="../img/fondo-contacto.jpg" alt="">  
-            </div>
-            
-            <div class="contacto__redes">
-              <i class="fa-brands fa-facebook-square"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-instagram"></i>
+            <div class="img-hero">
+                <img src="../img/onlinebankig.jpg" alt="Imagen de online bankig">
             </div>
         </section>
-    </footer>
+
+            <!-- CARDS -->
+            <section class="tarjetas-main">
+                <div class="tarjetas-contenedor">
+                    <div class="tarjetas">
+
+                    </div>
+                </div>
+            </section>
+    </main> 
 </body>
 </html>
