@@ -1,104 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./estilos.css" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <title>Pablo Martin Vicente</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>TunderBank</title>
 </head>
 <body>
-  <header class="header">
-    <nav class="nav__contenedor">
-      <img class="nav__imagen" src="./img/logo.png" alt="Logo del sitio">
-      <ul class="nav__menu">
-        <li><a class="menu__link" href="#">Inicio</a></li>
-        <li><a class="menu__link" href="#">Habilidades</a></li>
-        <li><a class="menu__link" href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- Hero -->
-      <section class="hero__contenedor">
-        <div class="hero__text">
-            <h1>Hola, Soy Pablo Vicente</h1>
-            <p>estudiante de programacion Full-Stack en Nucba.</p>
-            <a class="hero__btn" href="#">Ir a Skill</a>
-            <a class="hero__btn --invertido" href="#">Leer Más</a>
-        </div>
-        <div class="hero__img">
-            <img src="./img/img-para-header.jpg" alt="Imagen de internet">
-        </div>
+    <header>
+        <nav class="contenedor">
+            <img id="logo" src="./img/logo.png" alt="Logo">
 
-      </section>
-      <!-- Tarjetas -->
-      <section class="section">
-        <div>
-          <h2>Mis Aptitudes</h2>
-        </div>
-        <div class="tarjetas__contenedor">
-        <div class="tarjeta">
-          <img src="./img/student.png" alt="">
-          <h3>Compromiso</h3>
-          <p>Compromiso con la empresa, capacitacion constante.</p>
-        </div>
-        <div class="tarjeta">
-          <img src="./img/man.png" alt="">
-          <h3>Adaptabilidad</h3>
-          <p>Me adapto al equipo de trabajo. dando lo mejor para mi y para el equipo</p>
-        </div>
-        <div class="tarjeta">
-          <img src="./img/heart.png" alt="">
-          <h3>Colaboracion</h3>
-          <p>Me gusta mucho ayudar a otras personas y tratrar de resolver sus dudas</p>
-        </div>
-      </div>
-      </section>
-  </main>
-  <!-- Footer -->
-  <footer class="footer">
-   
-    <section class="contacto__contenedor">
-      <div class="contenido">
-      <h2>Contacto</h2>
-      <div class="contacto__lista">
-        <div class="contacto">
-          <h3>Jupiter.Australia</h3>
-          <ul>
-            <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
-            <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
-            <li><i class="fa-solid fa-phone"></i>0303 456 </li>
-          </ul>
-        </div>
-          <div class="contacto">
-          <h3>estevan Echeverria</h3>
-          <ul>
-            <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
-            <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
-            <li><i class="fa-solid fa-phone"></i>0303 456 </li>
-          </ul> 
-          
-        </div>
-    </div>
-  </div>
-    <div class="contacto__img">
-      <img src="./img/fondo-contacto.jpg" alt="">  
-    </div>
-    
-    <div class="contacto__redes">
-      <i class="fa-brands fa-facebook-square"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-instagram"></i>
-    </div>
+            <label for="check">
+                <i class="fa-solid fa-bars icon-nav"></i>
+            </label>
+            <input class="menu-check" type="checkbox" id="check">
+            
+            <ul class="nav__lista">
+                <li><a href="#"> Inicio</a></li>
+                <li><a href="#"> Prestamos</a></li>
+                <li><a href="#"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+        <!-- HERO -->
+        <section class="contenedor-hero">
+            <div class="hero">
+                <h1> Somos TrundBank</h1>
+                <h2>Prestamos al instante</h2>
+                <p>Somos una empresa facilitadora de creditos, solo con dni</p>
+                <a  href="#">solicitar</a>
+                <a id="btn" href="#">Contacto</a>
+            </div>
+            <div class="img-hero">
+                <img src="./img/onlinebankig.jpg" alt="Imagen de online bankig">
+            </div>
+        </section>
 
+            <!-- CARDS -->
+            <section class="tarjetas-main">
+                
+                <div class="tarjetas-contenedor">
+                    <div class="text">
+                        <h2>Unite a nosotros</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ullam.</p>
+                    </div>
+                    <div class="tarjetas">
+                        <img src="./img/iconos/adelanto-de-sueldo.png" alt="">
+                        <h2>Prestamos</h2>
+                        <p>tazas bajas</p>
+                        <a href="#">Conoce mas</a>
+                    </div>
+                    <div class="tarjetas">
+                        <img src="./img/iconos/chanchito-plazo-fijo.png" alt="Ahoro">
+                        <h2>Ahorra con nosotros</h2>
+                        <p>tazas bajas</p>
+                        <a href="#">Conoce mas</a>
+                    </div>
+                    <div class="tarjetas">
+                        <img src="./img/iconos/pestramo.png" alt="Ahoro">
+                        <h2>efectivo al instante</h2>
+                        <p>tazas bajas</p>
+                        <a href="#">Conoce mas</a>
+                    </div>
+                </div>
+            </section>
+    </main> 
 
-    </section>
-    
-  
-      
-  </footer> 
-  </body>
-  </html>
+    <footer class="footer">
+        <section class="contenedor-contactos">
+                <div class="contenedor-textos">
+                    <div class="contenido">
+                        <h2>Contacto</h2>
+                            <div class="lista">
+                            <ul>
+                                <h3>Jupiter.Australia</h3>
+                                <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
+                                <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
+                                <li><i class="fa-solid fa-phone"></i>0303 456 </li>
+                            </ul>
+
+                            <ul>
+                                <h3>Jupiter.Australia</h3>
+                                <li> <i class="fa-solid fa-location-dot"></i> Calle Falsa 123</li>
+                                <li> <i class="fa-solid fa-envelope"></i> email@email.com</li>
+                                <li><i class="fa-solid fa-phone"></i>0303 456 </li>
+                            </ul>
+                            
+                        </div>
+
+                            <div class="redes">
+                                <i class="fa-brands fa-facebook-square"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                              </div>
+                    </div>
+
+                </div>
+                <div class="contenedor-imagen">
+                    <img src="./img/onlinebankig.jpg" alt="">
+                </div>
+        </section>
+       <section class="logo-footer">
+        <img id="logo" src="./img/logo.png" alt="Logo">
+       </section>
+    </footer>
+</body>
+</html>
